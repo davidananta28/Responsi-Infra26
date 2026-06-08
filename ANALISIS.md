@@ -304,14 +304,11 @@ File `init.sql` mengandung markdown code fences (` ```sql ` dan ` ``` `) yang ti
 ### Solusi
 Menghapus baris:
 
-```text
-```sql
-```
+
+` ```sql `
 
 dan
 
-```text
-```
-```
+` ``` `
 
 sehingga hanya tersisa query SQL yang valid.
